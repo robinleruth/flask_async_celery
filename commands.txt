@@ -1,0 +1,1 @@
+celery worker -A app.celery --loglevel=info -S worker_state_db
